@@ -40,6 +40,9 @@ namespace SoundApp
             Singer.Add(new Item { Category = MusicCategory.Den });
             Singer.Add(new Item { Category = MusicCategory.Vu });
             Singer.Add(new Item { Category = MusicCategory.Andiez });
+            Singer.Add(new Item { Category = MusicCategory.Masew });
+            Singer.Add(new Item { Category = MusicCategory.Nau  });
+            Singer.Add(new Item { Category = MusicCategory.Mixi  });
         }
 
         private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)

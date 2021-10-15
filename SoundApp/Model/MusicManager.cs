@@ -14,10 +14,14 @@ namespace SoundApp.Model
             var sounds = new List<Music>();
 
             sounds.Add(new Music("Hai Triệu Năm", MusicCategory.Den, "Assets/Music/2trieunam.mp3", "Assets/Img/2trieunam.png"));
-            sounds.Add(new Music("1 Phút", MusicCategory.Andiez, "Assets/Music/1phut.mp3", "Assets/Img/1phut.jpg"));
             sounds.Add(new Music("Bài này chill phết", MusicCategory.Den, "Assets/Music/bainaychillphet.mp3", "Assets/Img/bainaychill.jpg"));
-            sounds.Add(new Music("Lạ Lùng", MusicCategory.Vu, "Assets/Music/lalung.mp3", "Assets/Img/lalung.jpg"));
             sounds.Add(new Music("Suýt nữa thì", MusicCategory.Andiez, "Assets/Music/suytnuathi.mp3", "Assets/Img/suytnuathi.jpg"));
+            sounds.Add(new Music("Độ tộc 2 ", MusicCategory.Mixi, "Assets/Music/DoToc2.mp3", "Assets/Img/dôtc2.jfif"));
+            sounds.Add(new Music("Hương ", MusicCategory.Mixi, "Assets/Music/huong.mp3", "Assets/Img/.jpg"));
+            sounds.Add(new Music("3710-3 ", MusicCategory.Nau, "Assets/Music/31073.mp3", "Assets/Img/3170-3.jfif"));
+            sounds.Add(new Music("Cưới thôi ", MusicCategory.Masew, "Assets/Music/CuoiThoi.mp3", "Assets/Img/aino.jpg"));
+            sounds.Add(new Music("Ái nộ  ", MusicCategory.Masew, "Assets/Music/AiNo.mp3", "Assets/Img/aino.jpg"));
+            
             return sounds;
         }
 
